@@ -7,7 +7,7 @@
 > Dự án website xem phim trực tuyến được xây dựng bởi Nhóm 14. Tập trung vào trải nghiệm người dùng với hiệu ứng cuộn mượt mà và giao diện hiện đại.
 
 ## 🖇 Demo
-📌 **Trải nghiệm ngay tại:** https://chlee001.github.io/webphim_14/
+📌 **Trải nghiệm ngay tại:** https://github.com/leechauanh098-svg/webphim_14
 
 ---
 
@@ -121,10 +121,10 @@
 ## 👥 Đóng góp
 
 Dự án được thực hiện bởi thành viên nhóm 14:
-<a href="[https://github.com/chlee001/webphim_14/graphs/contributors](https://github.com/chlee001/webphim_14/graphs/contributors)">
-  <img src="[https://contrib.rocks/image?repo=chlee001/webphim_14](https://contrib.rocks/image?repo=chlee001/webphim_14)" />
+<a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=leechauanh098-svg/webphim_14" />
 </a>
 
-<a href="https://github.com/chlee001/webphim_14/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chlee001/webphim_14" />
+<a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=leechauanh098-svg/webphim_14" />
 </a>
