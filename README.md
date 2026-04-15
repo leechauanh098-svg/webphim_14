@@ -106,7 +106,7 @@
 
 1. **Clone dự án về máy:**
    ```bash
-   git clone https://github.com/chlee001/webphim_14
+   git clone https://github.com/leechauanh098-svg/webphim_14
    ```
 
 2. **Mở thư mục dự án:**
