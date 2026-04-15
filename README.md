@@ -7,7 +7,7 @@
 > Dự án website xem phim trực tuyến được xây dựng bởi Nhóm 14. Tập trung vào trải nghiệm người dùng với hiệu ứng cuộn mượt mà và giao diện hiện đại.
 
 ## 🖇 Demo
-📌 **Trải nghiệm ngay tại:** https://github.com/leechauanh098-svg/webphim_14
+📌 **Trải nghiệm ngay tại:** https://leechauanh098-svg.github.io/webphim_14/
 
 ---
 
