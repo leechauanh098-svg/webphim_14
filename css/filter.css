@@ -1,0 +1,109 @@
+.filter-page {
+    width: min(92%, 1200px);
+    margin: calc(var(--nav-height) + 28px) auto 56px;}
+
+.filter-head {margin-bottom: 0;}
+
+.filter-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.2px;
+    color: #f2e6d8;}
+
+.filter-back:hover {color: #ffffff;}
+
+.filter-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.2px;}
+
+.filter-title .search-keyword {
+    color: #BC0000;
+    font-weight: 800;}
+
+.filter-subtitle, .filter-summary {
+    display: none;}
+
+.filter-list {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    column-gap: 10px;
+    row-gap: 18px;}
+
+.filter-card {
+    cursor: pointer;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    transition: transform 0.25s ease;}
+
+.filter-card:hover {transform: translateY(-5px);}
+
+.filter-card img {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 8px;}
+
+.filter-card .movie-info {
+    padding-top: 6px;
+    text-align: left;}
+
+.filter-card h4 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+.filter-card .eng {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(214, 220, 236, 0.68);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+.filter-empty {
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    padding: 28px 18px;
+    text-align: center;
+    color: #d5dced;}
+
+@media (max-width: 1100px) {
+    .filter-list {grid-template-columns: repeat(5, minmax(0, 1fr));}
+}
+
+@media (max-width: 880px) {
+    .filter-list {grid-template-columns: repeat(4, minmax(0, 1fr));}
+}
+
+.movie-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;}
+
+.movie-card-link:hover {color: inherit;}
+
+@media (max-width: 640px) {
+    .filter-page {margin-top: calc(var(--nav-height) + 18px);}
+
+    .filter-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        row-gap: 14px;}
+
+    .filter-card h4 {font-size: 14px;}
+}
