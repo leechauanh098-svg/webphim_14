@@ -124,7 +124,3 @@ Dự án được thực hiện bởi thành viên nhóm 14:
 <a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=leechauanh098-svg/webphim_14" />
 </a>
-
-<a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=leechauanh098-svg/webphim_14" />
-</a>
