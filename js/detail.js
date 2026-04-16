@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
+    function formatTime() {
+        const now = new Date();
+        const h = now.getHours().toString().padStart(2, '0');
+        const m = now.getMinutes().toString().padStart(2, '0');
+        const d = now.getDate();
+        const mo = (now.getMonth() + 1).toString().padStart(2, '0');
+        return `${h}:${m} - ${d}/${mo}`;
+    }
+
     const params = new URLSearchParams(window.location.search);
     const movieId = params.get('id');
 
@@ -8,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
    
-    fetch('../data/movies.json')
+    fetch('../assets/data/movies.json')
         .then(res => res.json())
         .then(data => {
             const movie = data.find(m => String(m.id) === movieId);
@@ -88,12 +97,27 @@ document.addEventListener('DOMContentLoaded', function () {
         btnSend.onclick = function () {
             const text = commentInput.value.trim();
             if (!text) return;
+
+            const loggedUserRaw = localStorage.getItem('user_logged');
+            let displayName = 'Người dùng';
+
+            if (loggedUserRaw) {
+                try {
+                    const loggedUser = JSON.parse(loggedUserRaw);
+                    if (loggedUser && loggedUser.username) {
+                        displayName = loggedUser.username;
+                    }
+                } catch (error) {
+                    console.error('Lỗi đọc user đã đăng nhập:', error);
+                }
+            }
+
             const commentHtml = `
-                <div class="comment-item" style="display: flex; gap: 15px; padding: 15px 0; border-bottom: 1px solid #2a2a32;">
-                    <div class="user-avatar" style="font-size: 2rem; color: #444;"><i class="fas fa-user-circle"></i></div>
+                <div class="comment-item">
+                    <div class="user-avatar"><i class="fas fa-user-circle"></i></div>
                     <div class="comment-content">
-                        <p class="user-name" style="font-weight: 600; margin-bottom: 5px; font-size: 0.9rem;">Người dùng</p>
-                        <p class="user-text" style="color: #b3b3b3; font-size: 0.85rem; line-height: 1.4;">${text}</p>
+                        <div class="user-name">${displayName} <span class="comment-time">${formatTime()}</span></div>
+                        <p class="user-text">${text}</p>
                     </div>
                 </div>
             `;
