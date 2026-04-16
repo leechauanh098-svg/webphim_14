@@ -27,7 +27,7 @@
             <a class="logo" href="../index.html" aria-label="Về trang chủ FILMHAY">FILM<span>HAY</span></a>
 
             <nav class="nav-links" id="main-nav">
-                <a href="#" class="mobile-menu-login"><i class="fas fa-user"></i> Đăng nhập</a>
+                    <a href="auth.html" class="mobile-menu-login"><i class="fas fa-user"></i> Đăng nhập</a>
 
                 <div class="nav-dropdown" id="country-dropdown-wrap">
                     <button class="nav-filter-button" id="country-toggle" type="button" aria-expanded="false" aria-controls="country-menu">
@@ -59,18 +59,22 @@
 
             <div class="nav-right">
                 <div class="search-bar header-search">
-                    <input type="text" placeholder="Tìm kiếm...">
-                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Tìm kiếm...">
+                    <i class="fas fa-search" id="search-icon"></i>
                 </div>
 
-                <div class="header-actions">
-                    <button class="login-button"><i class="fas fa-user"></i><span class="login-label">Đăng nhập</span></button>
+               <div class="header-actions">
+                    <a href="auth.html" style="text-decoration: none;">
+                        <button class="login-button">
+                            <i class="fas fa-user"></i>
+                            <span class="login-label">Đăng nhập</span>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
 
-<!-- ===== MAIN ===== -->
 <main class="detail-container">
     <section class="movie-hero">
         <div class="hero-background" id="hero-bg"></div>
@@ -88,7 +92,7 @@
                     <span id="banner-duration"></span>
                     </p>
                 </div>
-                <a href="#" class="btn-primary-red">
+                <a href="#" id="btn-watch" class="btn-primary-red">
                     Xem Ngay <i class="fas fa-play"></i>
                 </a>
             </div>
@@ -136,8 +140,9 @@
         </aside>
     </div>
 </main>
-<!-- ===== FOOTER ===== -->
-     <footer class="footer">
+
+<!-- FOOTER -->
+    <footer class="footer">
         <div class="container footer-content">
             <div class="footer-about">
                 <div class="logo">FILM<span>HAY</span></div>
@@ -152,10 +157,10 @@
             <div class="footer-links">
                 <h4>Khám Phá</h4>
                 <ul>
-                    <li><a href="pages/filter.html?filter=type&value=movie">Phim lẻ mới nhất</a></li>
-                    <li><a href="pages/filter.html?filter=type&value=series">Phim bộ độc quyền</a></li>
-                    <li><a href="pages/filter.html?filter=country&value=han">Phim Hàn Quốc</a></li>
-                    <li><a href="pages/filter.html?filter=country&value=aumy">Phim Âu Mỹ</a></li>
+                    <li><a href="filter.html?filter=type&value=movie">Phim lẻ mới nhất</a></li>
+                    <li><a href="filter.html?filter=type&value=series">Phim bộ độc quyền</a></li>
+                    <li><a href="filter.html?filter=country&value=han">Phim Hàn Quốc</a></li>
+                    <li><a href="filter.html?filter=country&value=aumy">Phim Âu Mỹ</a></li>
                 </ul>
             </div>
 
@@ -174,7 +179,8 @@
     </footer>
 
 
-<script src="../js/detail.js"></script>
 <script src="../js/global.js"></script>
+<script src="../js/search.js"></script>
+<script src="../js/detail.js"></script>
 </body>
 </html>
