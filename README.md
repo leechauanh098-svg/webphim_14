@@ -122,6 +122,17 @@
 
 Dự án được thực hiện bởi thành viên nhóm 14:
 
-<a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=leechauanh098-svg/webphim_14" />
-</a>
+<p align="left">
+  <a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
+    <img src="https://github.com/leechauanh098-svg.png" width="80" height="80" style="border-radius: 50%; object-fit: cover;">
+  </a>
+  <a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
+    <img src="https://github.com/tunaa203.png" width="80" height="80" style="border-radius: 50%; object-fit: cover;">
+  </a>
+  <a href="https://github.com/PeterP-an2k6k2.png" width="80" height="80" style="border-radius: 50%; object-fit: cover;">
+    <img src="https://github.com/PeterP-an2k6k2.png" width="80" height="80" style="border-radius: 50%; object-fit: cover;">
+  </a>
+  <a href="https://github.com/leechauanh098-svg/webphim_14/graphs/contributors">
+    <img src="https://github.com/hieudinh119.png" width="80" height="80" style="border-radius: 50%; object-fit: cover;">
+  </a>
+</p>
