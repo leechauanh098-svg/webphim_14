@@ -31,7 +31,7 @@
 
 **Trang xem phim**
 
-
+<img width="1920" height="2666" alt="screencapture-127-0-0-1-5501-pages-watch-html-2026-04-16-11_34_13" src="https://github.com/user-attachments/assets/c2d5e982-dd8c-41aa-b0f9-bf58cbe34daa" />
 
 ---
 
